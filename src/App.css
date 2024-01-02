@@ -1,5 +1,4 @@
 #homepage {
-  height: 78vh;
   text-align: center;
 }
 
@@ -8,17 +7,14 @@
 }
 
 #aboutpage {
-  height: 81.7vh;
   text-align: center;
 }
 
 #loginpage {
-  height: 81.7vh;
   text-align: center;
 }
 
 #cartpage {
-  height: 81.7vh;
   text-align: center;
 }
 
@@ -36,4 +32,25 @@
   margin: 2vw;
   width: 20vw;
   height: 55vh;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: initial;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-container {
+  margin: .5vh; /* Adjust margin as needed */
+}
+
+#aboutpara {
+  margin: 5vh;
 }
