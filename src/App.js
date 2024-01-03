@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes, useNavigate, useLocation} from 'react-router-dom';
+import { BrowserRouter, Route, Routes,} from 'react-router-dom';
 
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -8,6 +8,7 @@ import { Switch } from "@mui/material"
 import Homepage from './pages/home'
 import Bookspage from './pages/books';
 import About from './pages/about';
+import Info from './pages/info';
 
 import  TopBar  from './Components/Topbar'
 import BottomBar from './Components/bottombar';
@@ -28,21 +29,6 @@ function Cart() {
       <h1>Cart</h1>
     </div>
   )
-}
-
-function Info() {
-  const navigate = useNavigate();
-  const location = useLocation();
-  
-  // Access the passed variable from the state object
-  const booknumber = location.state?.info;
-
-  return (
-    <div id="cartpage">
-      <h1>Book {booknumber}</h1>
-      <button onClick={() => navigate('../books')}>go back</button>
-    </div>
-  );
 }
 
 function App() {

@@ -2,7 +2,8 @@ export default function About() {
     return(
       <div id="aboutpage">
         <h1>About</h1>
-        <p id="aboutpara">Here at Koala Books, we use an extensive array of cutting-edge artificial intelligence technologies, 
+        <p id="aboutpara">
+          Here at Koala Books, we use an extensive array of cutting-edge artificial intelligence technologies, 
           including but not limited to machine learning, deep learning, neural networks, natural language 
           processing (NLP), computer vision, and reinforcement learning, to propel our operations into the 
           forefront of innovation; employing techniques such as supervised learning, unsupervised learning, 
@@ -19,7 +20,8 @@ export default function About() {
           committed to the continuous evolution of our systems, we actively embrace concepts such as augmented analytics, 
           digital transformation, and human augmentation, incorporating features like knowledge graphs, synthetic data, 
           and human-in-the-loop (HITL) methodologies, thereby ensuring trustworthy, cloud-native AI operations that 
-          propel us forward in the era of ambient intelligence and beyond.</p>
+          propel us forward in the era of ambient intelligence and beyond.
+        </p>
       </div>
     )
 }
