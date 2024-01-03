@@ -1,21 +1,21 @@
 import * as React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import  book1 from '../images/documentation.jpg';
-import  book2 from '../images/comment-out-tests.jpg';
-import  book3 from '../images/jpg-compression.jpg';
-import  book4 from '../images/writing-code-noone.jpg';
-import  book5 from '../images/exiting-vim.jpg';
-import  book6 from '../images/googling-error-messages.jpg';
-import  book7 from '../images/hoping-nobody.jpg';
-import  book8 from '../images/ignore-warnings.jpg';
-import  book9 from '../images/hoping-this-works.jpg';
-import  book10 from '../images/regex.jpg';
-import  book11 from '../images/tyring-stuff-until-it-works.jpg';
-import  book12 from '../images/zindez.jpg';
-import  book13 from '../images/memor.jpg';
-import  book14 from '../images/naming.jpg';
-import  book15 from '../images/changing-stuff.jpg';
+import  book1 from '../images/1.jpg';
+import  book2 from '../images/2.jpg';
+import  book3 from '../images/3.jpg';
+import  book4 from '../images/4.jpg';
+import  book5 from '../images/5.jpg';
+import  book6 from '../images/6.jpg';
+import  book7 from '../images/7.jpg';
+import  book8 from '../images/8.jpg';
+import  book9 from '../images/9.jpg';
+import  book10 from '../images/10.jpg';
+import  book11 from '../images/11.jpg';
+import  book12 from '../images/12.jpg';
+import  book13 from '../images/13.jpg';
+import  book14 from '../images/14.jpg';
+import  book15 from '../images/15.jpg';
 
 export default function Bookspage() {
   const navigate = useNavigate();

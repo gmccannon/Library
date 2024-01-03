@@ -1,5 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes,} from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
+
+import IconButton from '@mui/material/IconButton';
 
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -24,9 +27,21 @@ function Login() {
 }
 
 function Cart() {
+  const location = useLocation();
+  const navigate = useNavigate();
+  const bookNumber = location.state?.info;
+
   return(
     <div id="cartpage">
-      <h1>Cart</h1>
+      {bookNumber &&
+        <>
+        <h1>You have added book {bookNumber}</h1>
+        <IconButton onClick={() => navigate('../books')}>
+            <p>Back to Books</p>
+        </IconButton>
+        </>
+    }
+        <h1>Cart</h1>
     </div>
   )
 }

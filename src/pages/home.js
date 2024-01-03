@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import  book1 from '../images/documentation.jpg';
-import  book2 from '../images/comment-out-tests.jpg';
-import  book3 from '../images/jpg-compression.jpg';
-import  book4 from '../images/writing-code-noone.jpg';
+import  book1 from '../images/1.jpg';
+import  book2 from '../images/2.jpg';
+import  book3 from '../images/3.jpg';
+import  book4 from '../images/4.jpg';
 
 export default function Homepage() {
   const navigate = useNavigate();

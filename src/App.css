@@ -55,3 +55,39 @@ button {
   margin-left: 10vh;
   margin-right: 10vh;
 }
+
+#back-button {
+  left: 15vw;
+  top: -30vh;
+  height: 2vw;
+  border: .1vw solid #ddd;
+  border-radius: .2vw;
+  font-weight: bold;
+}
+
+.bookpage-info {
+  border: .1vw solid #ddd;
+  border-radius: .2vw;
+  margin-left: 20vw;
+  width: 20vw;
+  height: 55vh;
+}
+
+.book-container-info {
+  display: flex;
+  align-items: center; /* Center items vertically within the container */
+  margin-bottom: 10vh;
+  margin-top: 5vh;
+  
+}
+
+.book-details {
+  flex-grow: 1; /* Allow the text to take up remaining space */
+  margin-left: 5vw;
+  max-width: 20vw;
+}
+
+.cart-button-info {
+  border: .1vw solid #ddd;
+  border-radius: .2vw;
+}
